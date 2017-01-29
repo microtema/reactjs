@@ -1,0 +1,30 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "ReactJS TypeScript and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sevenfate/reactjs.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "TypeScript",
+    "Webpack"
+  ],
+  "author": "Mario Tema",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sevenfate/reactjs/issues"
+  },
+  "homepage": "https://github.com/sevenfate/reactjs#readme",
+  "devDependencies": {
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.5",
+    "webpack": "^1.14.0"
+  }
+}
