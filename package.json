@@ -4,8 +4,20 @@
   "description": "ReactJS TypeScript and Webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack"
+  },
+  "jest": {
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js|jsx)$",
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ]
   },
   "repository": {
     "type": "git",
@@ -23,6 +35,8 @@
   },
   "homepage": "https://github.com/sevenfate/reactjs#readme",
   "devDependencies": {
+    "jest": "^18.1.0",
+    "ts-jest": "^18.0.3",
     "ts-loader": "^2.0.0",
     "typescript": "^2.1.5",
     "typings": "^2.1.0",
